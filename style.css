@@ -1,0 +1,157 @@
+/* Font Styles */
+
+@font-face {
+    font-family: Lufga;
+    font-weight: 900;
+    src: url(./font/Lufga-Black-1.woff);
+}
+
+@font-face {
+    font-family: Lufga;
+    font-weight: 700;
+    src: url(./font/Lufga-Bold-1.woff);
+}
+
+@font-face {
+    font-family: Lufga;
+    font-weight: 500;
+    src: url(./font/Lufga-Medium-1.woff);
+}
+
+@font-face {
+    font-family: Lufga;
+    font-weight: 400;
+    src: url(./font/Lufga-Regular-1.woff);
+}
+
+/* Global Styles */
+
+* {
+    font-family: Lufga;
+    margin: 0;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Typography Styles */
+
+h1 {
+    font-family: Lufga;
+    font-weight: 900;
+    font-size: 4.5em;
+    line-height: 120%;
+    text-align: center;
+    background: linear-gradient(90deg, #08E6FD 0%, #00A5FD 50%, #001EEE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+h2 {
+    font-family: Lufga;
+    font-weight: 900;
+    font-size: 3.1em;
+    line-height: 120%;
+}
+
+h3 {
+    font-family: Lufga;
+    font-weight: 900;
+    font-size: 1.5em;
+    line-height: 130%;
+}
+
+p {
+    font-family: Lufga;
+    font-weight: 500;
+    font-size: 1em;
+    color: #141414;
+}
+
+span {
+    color: #100EEE;
+}
+
+.body-copy {
+    color: #595959;
+}
+
+.body-copy-2 {
+    color: #595959;
+    font-weight: 400;
+}
+
+.body-blue {
+    color: #001EEE;
+}
+
+.section {
+    background: #001EEE;
+}
+
+/* Button & Link Styles */
+
+.btn-primary {
+    background-color: #100EEE;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #100EEE;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn-outline-primary {
+    color: #100EEE;
+    font-weight: 500;
+}
+
+.btn-outline-primary:hover {
+    background-color: #100EEE;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn-link {
+    color: #100EEE;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.drop-spacing {
+    line-height: 200%;
+}
+
+hr {
+    color: #D9D9D9;
+}
+
+.fluid-padding {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+@media (max-width: 576px) {
+    .fluid-padding {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .btn-top {
+        display: flex;
+        flex-direction: column;
+    }
+}
